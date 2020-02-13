@@ -1,0 +1,120 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.banner{
+  background-image: url('../images/background.png');
+  background-size: cover;
+  background-position: center;
+  padding: 250px 0;
+  justify-content: space-around;
+}
+
+.banner h1{
+  font-size: 30px;
+  color: white;
+  margin: 0;
+}
+.banner p{
+  font-size:20px;
+  color: white;
+  margin: 0;
+  position: relative;
+  top: 20px;
+}
+
+.banner a{
+  text-decoration: none;
+  color: white;
+  background-color: #21bf73;
+  padding: 10px 25px;
+  border-radius: 15px;
+  position: relative;
+  top: 50px;
+}
+
+.work{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  margin-left: 5px;
+}
+
+h3{
+  font-size: 26px;
+  text-align: center;
+}
+
+.work img{
+  background-size: cover;
+  height: 150px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  width: auto;
+}
+.apply{
+  margin: 5px;
+  width: 250px;
+  border-radius: 3px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+
+}
+
+.learn{
+  margin: 5px;
+  width: 250px;
+  border-radius: 3px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.product{
+  margin: 5px;
+  width: 250px;
+  border-radius: 3px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.work h2{
+  position: relative;
+  text-align: center;
+}
+
+.work p{
+  position: relative;
+  text-align: center;
+}
+
+.footer{
+  background-color: #272121;
+  width: auto;
+  height: 200px;
+  color: #979797;
+  text-align: center
+}
+.contact i{
+  padding: 20px 0;
+  color: #21bf73;
+  font-size: 30px;
+}
+#red-heart{
+  color: red;
+}
+

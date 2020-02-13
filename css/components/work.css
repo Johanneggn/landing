@@ -1,0 +1,48 @@
+.work{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  margin-left: 5px;
+}
+
+h3{
+  font-size: 26px;
+  text-align: center;
+}
+
+.work img{
+  background-size: cover;
+  height: 150px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+.apply{
+  margin: 5px;
+  width: 250px;
+  border-radius: 3px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.learn{
+  margin: 5px;
+  width: 250px;
+  border-radius: 3px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.product{
+  margin: 5px;
+  width: 250px;
+  border-radius: 3px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.work h2{
+  position: relative;
+  text-align: center;
+}
+
+.work p{
+  position: relative;
+  text-align: center;
+}

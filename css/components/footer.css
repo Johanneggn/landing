@@ -1,0 +1,16 @@
+.footer{
+  background-color: #272121;
+  width: auto;
+  height: 200px;
+  color: #979797;
+  text-align: center
+}
+.contact i{
+  padding: 20px 0;
+  color: #21bf73;
+  font-size: 30px;
+}
+#red-heart{
+  color: red;
+}
+
